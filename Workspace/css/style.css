@@ -1,0 +1,28 @@
+.banner {
+    display: flex;
+    justify-content: left;
+    font-weight: 700;
+    color: rgb(226, 0, 0);
+    padding-top: 10px;
+    padding-right: 90px;
+    padding-bottom: 30px;
+    font-size: 17px;
+    
+}
+
+.titulo-form {
+    color: red;
+}
+
+.menu-texto {
+    color: blue;
+    font-size: 15px;
+    text-decoration: underline;
+}
+
+.menu-texto2 {
+    font-family: Verdana, Tahoma, sans-serif;
+    color: brown;
+    text-decoration: solid;
+    text-decoration: underline;
+}
