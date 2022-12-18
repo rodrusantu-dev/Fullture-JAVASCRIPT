@@ -173,3 +173,24 @@ select {
     background-color: white;
     color: #1A1A1A;
 }
+
+.hide{
+    display: none;
+}
+
+#logoff {
+    margin-left: 30%;
+    margin-right: 30%;
+    width: 30%;
+    height: 40px;
+    cursor: pointer;
+    background: #F7761D;
+    border: 0;
+    border-radius: 20px;
+    transition: 1s;
+    font-size: 19px;
+}
+
+#logoff:hover{
+    background-color: #F74E04;
+}

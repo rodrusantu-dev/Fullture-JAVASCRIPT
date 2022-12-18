@@ -20,10 +20,10 @@ form.addEventListener("submit", (e) => {
 
     //CRIAR UM OBJETO - DENTRO DO EVENTO DE SUBMIT
     let usuario = {
-        'username': username,
-        'email': email,
-        'password': password,
-        'passwordConfirm': passwordConfirm
+        username,
+        email,
+        password,
+        passwordConfirm
     }
     this.validaCampos(usuario)
 })
