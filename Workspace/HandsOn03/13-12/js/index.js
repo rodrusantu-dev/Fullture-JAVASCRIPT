@@ -36,6 +36,7 @@ let carros = [{
 let divCarros = document.getElementById("carros");
 
 //Estou inserindo na Tela com esses formatos de TAGs do HTML.
+// aqui o forEach para navegar dentre os itens.
 carros.forEach(carro => {
     divCarros.innerHTML += 
     `
