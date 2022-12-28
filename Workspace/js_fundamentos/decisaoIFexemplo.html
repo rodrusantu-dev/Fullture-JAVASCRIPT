@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DETRAN</title>
+</head>
+<body>
+    <h1>Sistema de Multas</h1>
+    Velocidade do Carro <input type="number"  name="txtvel" id="txtvel">
+    <input type="button" value="verificar" id="button">
+
+    <div id="resultado"></div>
+
+    <script>
+
+        var startEmMedir = document.getElementById('button')
+        startEmMedir.addEventListener('click', medirVelocidade)
+
+
+            function medirVelocidade() {
+                var velocidade = document.getElementById('txtvel').value
+                var resultado = document.querySelector('div#resultado')
+                
+                resultado.innerHTML = `<p>Sua velocidade atual é de <strong>${velocidade} km por hora.</strong></p>`
+                resultado.innerHTML += `<p>Dirija sempre com cinto de Segurança!</p>` 
+                resultado.innerHTML += `<p>*****************************************************</p>` 
+
+                if (velocidade > 60) {
+                    resultado.innerHTML += `<p>LIBERAÇÃO DETRAN: Você passou do LIMITE será multado</p>` 
+                } else {
+                    resultado.innerHTML += `<p>LIBERAÇÃO DETRAN:Tudo certo, PODE SEGUIR VIAGEM!</p>`
+                }  
+                }
+    
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros Passos</title>
+    <style>
+        body {
+            background-color: rgb(235, 233, 233);
+            color: rgb(84, 2, 92);
+            font: normal 16pt arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título 1</h1>
+    <p>Paragrafo 1</p>
+    <p>Paragrafo 2</p>
+    <div id="msg"> *** Aqui a DIV ***</div>
+    <p>---------- Abaixo foi digitado no script ----------</p>
+
+    <script>
+
+        //buscar elemento por tagName, peguei o p (paragrafo) e o paragrafo zero.
+       var p1 = document.getElementsByTagName('p')[0]
+       document.write(p1.innerHTML)
+      
+       //buscando elemento pelo ID
+       var d = document.getElementById('msg')
+       document.write(d.innerHTML)
+      
+
+
+
+    </script>
+
+</body>
+</html>
