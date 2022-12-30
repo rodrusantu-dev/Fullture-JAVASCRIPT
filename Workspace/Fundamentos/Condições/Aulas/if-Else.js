@@ -1,6 +1,5 @@
 // Fechamento de Bloco  Divisão
 
-
 let idade = 18
 if ( idade >= 18 ){
   console.log("Você possui idade mínima, pode adquirir habilitação")
